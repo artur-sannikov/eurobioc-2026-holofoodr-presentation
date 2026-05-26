@@ -3,8 +3,6 @@ theme: seriph
 # background: https://cover.sli.dev
 title: HoloFoodR
 
-info: |
-  Food and metabolomics group meeting
 # apply UnoCSS classes to the current slide
 class: text-center
 # https://sli.dev/features/drawing
@@ -17,7 +15,7 @@ fonts:
 # enable MDC Syntax: https://sli.dev/features/mdc
 mdc: true
 # duration of the presentation
-duration: 20min
+duration: 10min
 ---
 
 
@@ -42,11 +40,15 @@ duration: 20min
 - Results and the case study
 - Discussion and conclusions
 
-<img src="./img/UTU_logo_FI_RGB.png" style="position:absolute; bottom:6px; right:20px; width:100px;" />
+<img
+  src="./img/UTU_logo_EN_RGB.png"
+  style="position: absolute; bottom: 6px; right: 20px; width: 100px"
+/>
 
-<img src="./img/food_sciences_unofficial_emblem.png" style="position:absolute; top:6px; right:20px; width:100px;" />
-
-<img src="./img/complifesci.png" style="position:absolute; top:6px; left:750px; width:100px;" />
+<img
+  src="./img/food_sciences_unofficial_emblem.png"
+  style="position: absolute; top: 6px; right: 20px; width: 100px"
+/>
 
 ---
 
@@ -68,7 +70,7 @@ duration: 20min
 
 </v-clicks>
 
-<img src="./img/UTU_logo_FI_RGB.png" style="position:absolute; bottom:6px; right:20px; width:100px;" />
+<img src="./img/UTU_logo_EN_RGB.png" style="position:absolute; bottom:6px; right:20px; width:100px;" />
 
 ---
 layout: two-cols
@@ -98,7 +100,7 @@ for analysing host-microbiota interactions in animal production. Database
 (Oxford). 2025;2025:baae112. doi:<a href="https://doi.org/10.1093/database/baae112">10.1093/database/baae112</a>
 </div>
 
-<img src="./img/UTU_logo_FI_RGB.png" style="position:absolute; bottom:6px; right:20px; width:100px;" />
+<img src="./img/UTU_logo_EN_RGB.png" style="position:absolute; bottom:6px; right:20px; width:100px;" />
 ---
 
 # HoloFoodR
@@ -119,13 +121,9 @@ These two formats are:
 
 </v-click>
 
-<arrow v-click="3" x1="300" y1="215" x2="360" y2="342" color="#953" width="2" arrowSize="1" />
-<!-- <div class="absolute left-1/2 bottom-1 -translate-x-1/2 text-center"> -->
-<!--   <div>This is my text</div> -->
-<!--   <div class="text-4xl">⬇️</div> -->
-<!-- </div> -->
+<!-- <arrow v-click="3" x1="300" y1="215" x2="360" y2="342" color="#953" width="2" arrowSize="1" /> -->
 
-<img src="./img/UTU_logo_FI_RGB.png" style="position:absolute; bottom:6px; right:20px; width:100px;" />
+<img src="./img/UTU_logo_EN_RGB.png" style="position:absolute; bottom:6px; right:20px; width:100px;" />
 
 ---
 
@@ -133,7 +131,7 @@ These two formats are:
 
 <img src="./img/holofoodr_workflow.png" style="width: 1000px" />
 
-<img src="./img/UTU_logo_FI_RGB.png" style="position:absolute; bottom:6px; right:20px; width:100px;" />
+<img src="./img/UTU_logo_EN_RGB.png" style="position:absolute; bottom:6px; right:20px; width:100px;" />
 
 ---
 
@@ -152,7 +150,10 @@ These two formats are:
 
 </div>
 
-<img src="./img/UTU_logo_FI_RGB.png" style="position:absolute; bottom:6px; right:20px; width:100px;" />
+<img
+  src="./img/UTU_logo_EN_RGB.png"
+  style="position: absolute; bottom: 6px; right: 20px; width: 100px"
+/>
 
 ---
 
@@ -161,7 +162,17 @@ These two formats are:
 - Package released on [Bioconductor](https://bioconductor.org/packages/release//bioc/html/HoloFoodR.html)
 - Case study with a formal analysis
 
-<img src="./img/UTU_logo_FI_RGB.png" style="position:absolute; bottom:6px; right:20px; width:100px;" />
+
+
+<img
+  src="./img/holofoodr_qrcode.png "
+  style="position: absolute; top: 80px; right: 100px; width: 400px"
+/>
+
+<img
+  src="./img/UTU_logo_EN_RGB.png"
+  style="position: absolute; bottom: 6px; right: 20px; width: 100px"
+/>
 
 ---
 
@@ -180,7 +191,7 @@ These two formats are:
 
 </v-clicks>
 
-<img src="./img/UTU_logo_FI_RGB.png" style="position:absolute; bottom:6px; right:20px; width:100px;" />
+<img src="./img/UTU_logo_EN_RGB.png" style="position:absolute; bottom:6px; right:20px; width:100px;" />
 ---
 
 # About the data
@@ -189,17 +200,12 @@ These two formats are:
 
 - Study of a fermented seaweed additive in the salmon diet
 - The seaweed contains plenty of bioactive components and a diverse microbiota
-- Feeding treatments were randomly assigned to each tank
-- Each dietary treatment had 2 or 3 replicate tanks
-- Animals were euthanised at either start or end of the study
-- Fatty acids were collected from muscles
 - More info on [HoloFood Salmon Experimental
   Design](https://www.holofooddata.org/analysis-summary/holofood-salmon-experimental-design)
 
-
 </v-clicks>
 
-<img src="./img/UTU_logo_FI_RGB.png" style="position:absolute; bottom:6px; right:20px; width:100px;" />
+<img src="./img/UTU_logo_EN_RGB.png" style="position:absolute; bottom:6px; right:20px; width:100px;" />
 ---
 
 # Fetch HoloFood data
@@ -230,7 +236,7 @@ mae <- HoloFoodR::getResult(
 )
 ```
 
-<img src="./img/UTU_logo_FI_RGB.png" style="position:absolute; bottom:12px; right:20px; width:100px;" />
+<img src="./img/UTU_logo_EN_RGB.png" style="position:absolute; bottom:12px; right:20px; width:100px;" />
 ---
 
 # Fetch metagenomic data
@@ -260,7 +266,7 @@ tse <- MGnifyR::getResult(
 mae <- addMGnify(tse, mae)
 ```
 
-<img src="./img/UTU_logo_FI_RGB.png" style="position:absolute; bottom:6px; right:20px; width:100px;" />
+<img src="./img/UTU_logo_EN_RGB.png" style="position:absolute; bottom:6px; right:20px; width:100px;" />
 ---
 
 # Now to the actual results
@@ -270,9 +276,9 @@ mae <- addMGnify(tse, mae)
 - We did not find any effect of the treatment on the fatty acid concentrations
 - But we did find time effect
 
-<img src="./img/fatty_and_treatment_vis-1.png" style="width: 550px" />
+<img src="./img/fatty_and_treatment_vis-1.png" style="width: 450px" />
 
-<img src="./img/UTU_logo_FI_RGB.png" style="position:absolute; bottom:6px; right:20px; width:100px;" />
+<img src="./img/UTU_logo_EN_RGB.png" style="position:absolute; bottom:6px; right:20px; width:100px;" />
 ---
 
 # Shannon alpha-diversity
@@ -281,7 +287,7 @@ mae <- addMGnify(tse, mae)
 
 <img src="./img/alpha3-1.png" style="width: 550px" />
 
-<img src="./img/UTU_logo_FI_RGB.png" style="position:absolute; bottom:6px; right:20px; width:100px;" />
+<img src="./img/UTU_logo_EN_RGB.png" style="position:absolute; bottom:6px; right:20px; width:100px;" />
 ---
 
 # Beta-diversity
@@ -292,7 +298,7 @@ mae <- addMGnify(tse, mae)
 
 <img src="./img/pcoa_beta_diversity-1.png" style="width: 550px" />
 
-<img src="./img/UTU_logo_FI_RGB.png" style="position:absolute; bottom:5px; right:20px; width:100px;" />
+<img src="./img/UTU_logo_EN_RGB.png" style="position:absolute; bottom:5px; right:20px; width:100px;" />
 ---
 
 # Multi-omics integration
@@ -309,24 +315,21 @@ mae <- addMGnify(tse, mae)
   <div class="text-left">
     Explained variance by factor
   </div>
-  <img src="./img/var_factor1-1.png" style="width: 550px" />
+  <img src="./img/var_factor1-1.png" style="width: 450px" />
 </div>
 
 </v-clicks>
 
-<img src="./img/UTU_logo_FI_RGB.png" style="position:absolute; bottom:6px; right:20px; width:100px;" />
+<img src="./img/UTU_logo_EN_RGB.png" style="position:absolute; bottom:6px; right:20px; width:100px;" />
 
 ---
 
 # Factor 1
 
-<img src="./img/plot_factor1-1.png" style="width: 450px" />
+<img src="./img/plot_factor1-1.png" style="width: 400px" />
 
 Mycoplasma is dominant in salmon gut but we did not find any covariation with
 fatty acids.
-
-<!-- Most of the variability in metagenome between the start and the end of the -->
-<!-- the trial is explained by the variability in Mycoplasma. -->
 
 <div class="text-sm">
 K.Z. Zarkasi, G.C.J. Abell, R.S. Taylor, C. Neuman, E. Hatje, M.L. Tamplin, M.
@@ -336,30 +339,7 @@ system, Journal of Applied Microbiology, Volume 117, Issue 1, 1 July 2014,
 Pages 18–27, <a href="https://doi.org/10.1111/jam.12514">10.1111/jam.12514</a>
 </div>
 
-<img src="./img/UTU_logo_FI_RGB.png" style="position:absolute; bottom:6px; right:20px; width:100px;" />
----
-
-# Factor 2
-
-<div class="absolute bottom-98.5 left-17 w-36 h-0.3 bg-red-500"></div>
-<div class="absolute bottom-85.5 left-38 w-15.5 h-0.3 bg-red-500"></div>
-<div class="absolute bottom-65.5 left-16.5 w-36 h-0.3 bg-red-500"></div>
-
-<img src="./img/plot_factor2-1.png" style="width: 650px" />
-
-<img src="./img/UTU_logo_FI_RGB.png" style="position:absolute; bottom:6px; right:20px; width:100px;" />
-<!-- Cetobacterium, Vibrio, Aliivibrio are associated with EPA and DHA. -->
----
-
-# Factor 3
-
-<div class="absolute bottom-98.5 left-16.5 w-36 h-0.3 bg-red-500"></div>
-<div class="absolute bottom-95.5 left-37.5 w-15.5 h-0.3 bg-red-500"></div>
-
-<img src="./img/plot_factor3-1.png" style="width: 650px" />
-
-<img src="./img/UTU_logo_FI_RGB.png" style="position:absolute; bottom:6px; right:20px; width:100px;" />
-<!-- Photobacterium is also assocaited with DHA and EPA. -->
+<img src="./img/UTU_logo_EN_RGB.png" style="position:absolute; bottom:6px; right:20px; width:100px;" />
 ---
 
 # Discussion and conclusions
@@ -376,7 +356,7 @@ Pages 18–27, <a href="https://doi.org/10.1111/jam.12514">10.1111/jam.12514</a>
 <!-- We use two containers: MAE and TreeSE -->
 <!-- We can use HoloFoodR to retrieve the data to teach advanced multi-omics -->
 
-<img src="./img/UTU_logo_FI_RGB.png" style="position:absolute; bottom:6px; right:20px; width:100px;" />
+<img src="./img/UTU_logo_EN_RGB.png" style="position:absolute; bottom:6px; right:20px; width:100px;" />
 
 ---
 
@@ -392,7 +372,7 @@ Pages 18–27, <a href="https://doi.org/10.1111/jam.12514">10.1111/jam.12514</a>
   supported by the Danish National Research Foundation [grant
   DNRF143].
 
-<img src="./img/UTU_logo_FI_RGB.png" style="position:absolute; bottom:6px; right:20px; width:100px;" />
+<img src="./img/UTU_logo_EN_RGB.png" style="position:absolute; bottom:6px; right:20px; width:100px;" />
 ---
 
 # Further references
@@ -409,7 +389,7 @@ Pages 18–27, <a href="https://doi.org/10.1111/jam.12514">10.1111/jam.12514</a>
   with Bioconductor. doi: [10.1101/2025.10.29.685036](https://doi.org/10.1101/2025.10.29.685036).
 - [HoloFood consortium publications](https://docs.holofooddata.org/publications.html)
 
-<img src="./img/UTU_logo_FI_RGB.png" style="position:absolute; bottom:6px; right:20px; width:100px;" />
+<img src="./img/UTU_logo_EN_RGB.png" style="position:absolute; bottom:6px; right:20px; width:100px;" />
 
 ---
 canvasWidth: 1920
@@ -418,7 +398,7 @@ canvasHeight: 1080
 
 # Thank you and kiitos! Any questions?
 
-<img src="./img/UTU_logo_FI_RGB.png" style="position:absolute; bottom:6px; right:20px; width:100px;" />
+<img src="./img/UTU_logo_EN_RGB.png" style="position:absolute; bottom:6px; right:20px; width:100px;" />
 
 <div class="flex h-full items-center justify-center">
   <img src="./img/site.svg" width="300" />
