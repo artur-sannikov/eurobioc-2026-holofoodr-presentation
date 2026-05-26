@@ -360,6 +360,38 @@ Pages 18–27, <a href="https://doi.org/10.1111/jam.12514">10.1111/jam.12514</a>
 
 ---
 
+---
+layout: default
+---
+
+# Authors
+
+<div class="grid grid-cols-4 gap-6 mt-6">
+  <div
+    v-for="person in people"
+    :key="person.name"
+    class="flex flex-col items-center text-center"
+  >
+    <img :src="person.photo" class="w-26 h-26 object-cover rounded-lg" />
+    <p class="mt-2 font-semibold text-sm">{{ person.name }}</p>
+  </div>
+</div>
+
+<script setup>
+const people = [
+  { name: 'Tuomas Borman, UTU',   photo: '/img/tuomas.jpg' },
+  { name: 'Artur Sannikov, UTU',   photo: '/img/artur.jpg' },
+  { name: 'Robert Finn, EMBL-EBI',   photo: '/img/robert.jpg' },
+  { name: 'Morten Tønsberg Limborg, UCPH',     photo: '/img/morten.png' },
+  { name: 'Sandy Rogers, EMBL-EBI',     photo: '/img/sandy.jpg' },
+  { name: 'Varsha Kale',  photo: '/img/varsha.jpg' },
+  { name: 'Tuomas Borman',     photo: '/img/tuomas.jpg' },
+  { name: 'Tuomas Borman',  photo: '/img/tuomas.jpg' },
+]
+</script>
+
+---
+
 # Acknowledgements and funding
 
 - HoloFood consortium for providing curated data and API
@@ -374,6 +406,7 @@ Pages 18–27, <a href="https://doi.org/10.1111/jam.12514">10.1111/jam.12514</a>
 
 <img src="./img/UTU_logo_EN_RGB.png" style="position:absolute; bottom:6px; right:20px; width:100px;" />
 ---
+
 
 # Further references
 - Tuomas Borman, Artur Sannikov, Robert D Finn, Morten Tønsberg Limborg,
@@ -403,5 +436,4 @@ canvasHeight: 1080
 <div class="flex h-full items-center justify-center">
   <img src="./img/site.svg" width="300" />
 </div>
-
 
