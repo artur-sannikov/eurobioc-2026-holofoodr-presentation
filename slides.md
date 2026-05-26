@@ -20,6 +20,7 @@ mdc: true
 duration: 20min
 ---
 
+
 # HoloFoodR
 
 ## A statistical programming framework for holo-omics data integration workflow
@@ -28,10 +29,8 @@ duration: 20min
 
 ##### Tuomas Borman, Artur Sannikov, Robert D Finn, Morten Tønsberg Limborg, Alexander B Rogers, Varsha Kale, Kati Hanhineva, Leo Lahti
 
-###### Pre-EuroBioC2026 event
-
-###### 2026-01-23
-
+###### EuroBioC2026
+###### 2026-06-04
 ######
 
 ---
@@ -43,20 +42,11 @@ duration: 20min
 - Results and the case study
 - Discussion and conclusions
 
-<img
-  src="./img/UTU_logo_FI_RGB.png"
-  style="position: absolute; bottom: 6px; right: 20px; width: 100px"
-/>
+<img src="./img/UTU_logo_FI_RGB.png" style="position:absolute; bottom:6px; right:20px; width:100px;" />
 
-<img
-  src="./img/food_sciences_unofficial_emblem.png"
-  style="position: absolute; top: 6px; right: 20px; width: 100px"
-/>
+<img src="./img/food_sciences_unofficial_emblem.png" style="position:absolute; top:6px; right:20px; width:100px;" />
 
-<img
-  src="./img/complifesci.png"
-  style="position: absolute; top: 6px; left: 750px; width: 100px"
-/>
+<img src="./img/complifesci.png" style="position:absolute; top:6px; left:750px; width:100px;" />
 
 ---
 
@@ -68,8 +58,8 @@ duration: 20min
 
 - Horizon 2020 funded project
 - Aimed to study the modulation of animal gut microbiota via food additives
-- Two animals were studied: salmon (_Salmo salar_) and chickens
-  (_Gallus gallus_)
+- Two animals were studied: salmon (*Salmo salar*) and chickens
+  (*Gallus gallus*)
 - More than 2000 individual specimen
 - Biomolecular and physiological measurements are also available
 - Hologenome: a set of genomes of the host and microbiota
@@ -81,8 +71,8 @@ duration: 20min
 <img src="./img/UTU_logo_FI_RGB.png" style="position:absolute; bottom:6px; right:20px; width:100px;" />
 
 ---
-
-## layout: two-cols
+layout: two-cols
+---
 
 # HoloFood Data Portal
 
@@ -93,7 +83,7 @@ duration: 20min
 - ...which you'll need to <mark class="bg-lightblue">transform</mark> into tables...
 - ...and <mark class="bg-lightblue">relate</mark> those tables to each other
 - There should be an easier way to <mark class="bg-rose">download</mark> such valuable data...
-- ...and <mark class="bg-rose">transform</mark> into common Bioconductor<br>formats
+- ...and <mark class="bg-rose">transform</mark> into common Bioconductor formats
 
 </v-clicks>
 
@@ -108,7 +98,8 @@ for analysing host-microbiota interactions in animal production. Database
 (Oxford). 2025;2025:baae112. doi:<a href="https://doi.org/10.1093/database/baae112">10.1093/database/baae112</a>
 </div>
 
-## <img src="./img/UTU_logo_FI_RGB.png" style="position:absolute; bottom:6px; right:20px; width:100px;" />
+<img src="./img/UTU_logo_FI_RGB.png" style="position:absolute; bottom:6px; right:20px; width:100px;" />
+---
 
 # HoloFoodR
 
@@ -124,7 +115,7 @@ These two formats are:
 - TreeSummarizedExperiment
 - MultiAssayExperiment
 
-<img src="./img/tse.png" class="absolute left-1/1.9 bottom-9 -translate-x-1/3" style="width: 550px" />
+<img src="./img/tse.png" class="absolute left-1/1.9 bottom-28 -translate-x-1/5" style="width: 400px" />
 
 </v-click>
 
@@ -189,7 +180,8 @@ These two formats are:
 
 </v-clicks>
 
-## <img src="./img/UTU_logo_FI_RGB.png" style="position:absolute; bottom:6px; right:20px; width:100px;" />
+<img src="./img/UTU_logo_FI_RGB.png" style="position:absolute; bottom:6px; right:20px; width:100px;" />
+---
 
 # About the data
 
@@ -204,9 +196,11 @@ These two formats are:
 - More info on [HoloFood Salmon Experimental
   Design](https://www.holofooddata.org/analysis-summary/holofood-salmon-experimental-design)
 
+
 </v-clicks>
 
-## <img src="./img/UTU_logo_FI_RGB.png" style="position:absolute; bottom:6px; right:20px; width:100px;" />
+<img src="./img/UTU_logo_FI_RGB.png" style="position:absolute; bottom:6px; right:20px; width:100px;" />
+---
 
 # Fetch HoloFood data
 
@@ -236,7 +230,8 @@ mae <- HoloFoodR::getResult(
 )
 ```
 
-## <img src="./img/UTU_logo_FI_RGB.png" style="position:absolute; bottom:12px; right:20px; width:100px;" />
+<img src="./img/UTU_logo_FI_RGB.png" style="position:absolute; bottom:12px; right:20px; width:100px;" />
+---
 
 # Fetch metagenomic data
 
@@ -265,7 +260,8 @@ tse <- MGnifyR::getResult(
 mae <- addMGnify(tse, mae)
 ```
 
-## <img src="./img/UTU_logo_FI_RGB.png" style="position:absolute; bottom:6px; right:20px; width:100px;" />
+<img src="./img/UTU_logo_FI_RGB.png" style="position:absolute; bottom:6px; right:20px; width:100px;" />
+---
 
 # Now to the actual results
 
@@ -276,7 +272,8 @@ mae <- addMGnify(tse, mae)
 
 <img src="./img/fatty_and_treatment_vis-1.png" style="width: 550px" />
 
-## <img src="./img/UTU_logo_FI_RGB.png" style="position:absolute; bottom:6px; right:20px; width:100px;" />
+<img src="./img/UTU_logo_FI_RGB.png" style="position:absolute; bottom:6px; right:20px; width:100px;" />
+---
 
 # Shannon alpha-diversity
 
@@ -284,7 +281,8 @@ mae <- addMGnify(tse, mae)
 
 <img src="./img/alpha3-1.png" style="width: 550px" />
 
-## <img src="./img/UTU_logo_FI_RGB.png" style="position:absolute; bottom:6px; right:20px; width:100px;" />
+<img src="./img/UTU_logo_FI_RGB.png" style="position:absolute; bottom:6px; right:20px; width:100px;" />
+---
 
 # Beta-diversity
 
@@ -294,7 +292,8 @@ mae <- addMGnify(tse, mae)
 
 <img src="./img/pcoa_beta_diversity-1.png" style="width: 550px" />
 
-## <img src="./img/UTU_logo_FI_RGB.png" style="position:absolute; bottom:5px; right:20px; width:100px;" />
+<img src="./img/UTU_logo_FI_RGB.png" style="position:absolute; bottom:5px; right:20px; width:100px;" />
+---
 
 # Multi-omics integration
 
@@ -337,7 +336,8 @@ system, Journal of Applied Microbiology, Volume 117, Issue 1, 1 July 2014,
 Pages 18–27, <a href="https://doi.org/10.1111/jam.12514">10.1111/jam.12514</a>
 </div>
 
-## <img src="./img/UTU_logo_FI_RGB.png" style="position:absolute; bottom:6px; right:20px; width:100px;" />
+<img src="./img/UTU_logo_FI_RGB.png" style="position:absolute; bottom:6px; right:20px; width:100px;" />
+---
 
 # Factor 2
 
@@ -392,10 +392,10 @@ Pages 18–27, <a href="https://doi.org/10.1111/jam.12514">10.1111/jam.12514</a>
   supported by the Danish National Research Foundation [grant
   DNRF143].
 
-## <img src="./img/UTU_logo_FI_RGB.png" style="position:absolute; bottom:6px; right:20px; width:100px;" />
+<img src="./img/UTU_logo_FI_RGB.png" style="position:absolute; bottom:6px; right:20px; width:100px;" />
+---
 
 # Further references
-
 - Tuomas Borman, Artur Sannikov, Robert D Finn, Morten Tønsberg Limborg,
   Alexander B Rogers, Varsha Kale, Kati Hanhineva, Leo Lahti, HoloFoodR: a
   statistical programming framework for holo-omics data integration workflows,
@@ -412,10 +412,8 @@ Pages 18–27, <a href="https://doi.org/10.1111/jam.12514">10.1111/jam.12514</a>
 <img src="./img/UTU_logo_FI_RGB.png" style="position:absolute; bottom:6px; right:20px; width:100px;" />
 
 ---
-
 canvasWidth: 1920
 canvasHeight: 1080
-
 ---
 
 # Thank you and kiitos! Any questions?
@@ -425,3 +423,5 @@ canvasHeight: 1080
 <div class="flex h-full items-center justify-center">
   <img src="./img/site.svg" width="300" />
 </div>
+
+
