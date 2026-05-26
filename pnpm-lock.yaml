@@ -11,8 +11,19 @@ importers:
       '@slidev/theme-seriph':
         specifier: ^0.25.0
         version: 0.25.0
+    devDependencies:
+      prettier:
+        specifier: ^3.8.3
+        version: 3.8.3
+      prettier-plugin-slidev:
+        specifier: ^1.0.5
+        version: 1.0.5(prettier@3.8.3)
 
 packages:
+
+  '@slidev/parser@0.47.5':
+    resolution: {integrity: sha512-KvqOEhIFuMDu8CjAsehMNKlAnnmAn2TRHiEymc3CMadid05oWa5zgTxqEyMxUl2rjWpYs3A1yDiendZsGYs3HA==}
+    engines: {node: '>=18.0.0'}
 
   '@slidev/theme-seriph@0.25.0':
     resolution: {integrity: sha512-PnFQbn4I70+/cVie5iAr0Im6sYvnwjkO7Yj5KonTyJZFFJFytckLTrD3ijft/J4cRnz7OmSzTyQKNX1FN/x0YQ==}
@@ -22,13 +33,35 @@ packages:
     resolution: {integrity: sha512-X67V4cCgM0Sz50bP8GbVzmiL8DHC2IXvdKcsN7DlxHyf+/T4d9GveeGukwha5Fx3MuYeGZWKag7TFL2ZY4w54A==}
     engines: {node: '>=18.0.0'}
 
+  argparse@2.0.1:
+    resolution: {integrity: sha512-8+9WqebbFzpX9OR+Wa6O29asIogeRMzcGtAINdpMHHyAg10f05aSFVBbcEqGf/PXw1EjAZ+q2/bEBg3DvurK3Q==}
+
   codemirror-theme-vars@0.1.2:
     resolution: {integrity: sha512-WTau8X2q58b0SOAY9DO+iQVw8JKVEgyQIqArp2D732tcc+pobbMta3bnVMdQdmgwuvNrOFFr6HoxPRoQOgooFA==}
+
+  js-yaml@4.1.1:
+    resolution: {integrity: sha512-qQKT4zQxXl8lLwBtHMWwaTcGfFOZviOJet3Oy/xmGk2gZH677CJM9EvtfdSkgWcATZhj/55JZ0rmy3myCT5lsA==}
+    hasBin: true
+
+  prettier-plugin-slidev@1.0.5:
+    resolution: {integrity: sha512-1xaKzOAX17QAcn1roUgQIAfeio3HPYYefCgzxh6Bzk+5rJJxq0I8HUhLrUyv9nCpIP6e9CDv/yDQSdEeqqRUuA==}
+    peerDependencies:
+      prettier: ^3.2.4
+
+  prettier@3.8.3:
+    resolution: {integrity: sha512-7igPTM53cGHMW8xWuVTydi2KO233VFiTNyF5hLJqpilHfmn8C8gPf+PS7dUT64YcXFbiMGZxS9pCSxL/Dxm/Jw==}
+    engines: {node: '>=14'}
+    hasBin: true
 
   prism-theme-vars@0.2.5:
     resolution: {integrity: sha512-/D8gBTScYzi9afwE6v3TC1U/1YFZ6k+ly17mtVRdLpGy7E79YjJJWkXFgUDHJ2gDksV/ZnXF7ydJ4TvoDm2z/Q==}
 
 snapshots:
+
+  '@slidev/parser@0.47.5':
+    dependencies:
+      '@slidev/types': 0.47.5
+      js-yaml: 4.1.1
 
   '@slidev/theme-seriph@0.25.0':
     dependencies:
@@ -38,6 +71,19 @@ snapshots:
 
   '@slidev/types@0.47.5': {}
 
+  argparse@2.0.1: {}
+
   codemirror-theme-vars@0.1.2: {}
+
+  js-yaml@4.1.1:
+    dependencies:
+      argparse: 2.0.1
+
+  prettier-plugin-slidev@1.0.5(prettier@3.8.3):
+    dependencies:
+      '@slidev/parser': 0.47.5
+      prettier: 3.8.3
+
+  prettier@3.8.3: {}
 
   prism-theme-vars@0.2.5: {}
