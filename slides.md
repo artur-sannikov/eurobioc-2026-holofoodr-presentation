@@ -45,11 +45,6 @@ duration: 10min
   style="position: absolute; bottom: 6px; right: 20px; width: 100px"
 />
 
-<img
-  src="./img/food_sciences_unofficial_emblem.png"
-  style="position: absolute; top: 6px; right: 20px; width: 100px"
-/>
-
 ---
 
 # What is HoloFood?
