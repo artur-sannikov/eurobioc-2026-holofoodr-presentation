@@ -533,12 +533,24 @@ layout: default
 
 # Thank you and kiitos! Any questions?
 
+<div class="flex justify-between">
+  <span>Contact me</span>
+  <span>Paper</span>
+</div>
+
+<img
+  src="./img/site.svg"
+  width="200"
+  style="position: absolute; bottom: 110px; left: 35px; width: 300px"
+/>
+
+<img
+  src="./img/holofoodr_paper_qr.svg"
+  width="200"
+  style="position: absolute; bottom: 110px; right: 20px; width: 300px"
+/>
+
 <img
   src="./img/UTU_logo_EN_RGB.png"
   style="position: absolute; bottom: 6px; right: 20px; width: 100px"
 />
-
-<div class="flex h-full items-center justify-center">
-  <img src="./img/site.svg" width="300" />
-</div>
-
