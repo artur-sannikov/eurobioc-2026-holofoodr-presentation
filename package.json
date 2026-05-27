@@ -6,6 +6,11 @@
     "prettier": "^3.8.3",
     "prettier-plugin-slidev": "^1.0.5"
   },
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev --open",
+    "export": "slidev export"
+  },
   "overrides": [
     {
       "files": [
