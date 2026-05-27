@@ -484,13 +484,33 @@ layout: default
   DNRF143].
 
 <img
+  src="./img/Horizon_2020_Logo.png"
+  style="position: absolute; bottom: 90px; left: 80px; width: 200px"
+/>
+<img
+  src="./img/Suomen_Akatemia_Logo.png"
+  style="position: absolute; bottom: 90px; left: 290px; width: 200px"
+/>
+
+<img
+  src="./img/JAES_Logo_EN_Stacked_Dark@4x.png"
+  style="position: absolute; bottom: 50px; left: 510px; width: 120px"
+/>
+
+<img
+  src="./img/DG_logo_RGB_red_small.png"
+  style="position: absolute; bottom: 77px; left: 670px; width: 170px"
+/>
+
+<img
   src="./img/UTU_logo_EN_RGB.png"
   style="position: absolute; bottom: 6px; right: 20px; width: 100px"
 />
+
 ---
 
-
 # Further references
+
 - Tuomas Borman, Artur Sannikov, Robert D Finn, Morten Tønsberg Limborg,
   Alexander B Rogers, Varsha Kale, Kati Hanhineva, Leo Lahti, HoloFoodR: a
   statistical programming framework for holo-omics data integration workflows,
