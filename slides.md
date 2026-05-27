@@ -437,25 +437,37 @@ layout: default
 
 <script setup>
   import tuomas from './img/tuomas.jpg'
+  import artur from './img/artur.jpg'
+  import robert from './img/robert.jpg'
+  import morten from './img/morten.png'
+  import sandy from './img/sandy.jpg'
+  import varsha from './img/varsha.jpg'
+  import kati from './img/kati.jpg'
+  import leo from './img/leo.jpg'
   const people = [
     {
       name: "Tuomas Borman, UTU",
       photo: tuomas,
       position: "50% 40%",
     },
-    { name: "Artur Sannikov, UTU", photo: "/img/artur.jpg" },
-    { name: "Robert Finn, EMBL-EBI", photo: "/img/robert.jpg" },
+    { name: "Artur Sannikov, UTU", photo: artur },
+    { name: "Robert Finn, EMBL-EBI", photo: robert },
     {
       name: "Morten Tønsberg Limborg, UCPH",
-      photo: "/img/morten.png",
+      photo: morten,
       position: "50% 20%",
     },
-    { name: "Sandy Rogers, EMBL-EBI", photo: "/img/sandy.jpg" },
-    { name: "Varsha Kale, EMBL-EBI, AAU", photo: "/img/varsha.jpg" },
-    { name: "Kati Hanhineva, UTU", photo: "/img/kati.jpg", position: "50% 60%" },
-    { name: "Leo Lahti, UTU", photo: "/img/leo.jpg" },
+    { name: "Sandy Rogers, EMBL-EBI", photo: sandy },
+    { name: "Varsha Kale, EMBL-EBI, AAU", photo: varsha },
+    { name: "Kati Hanhineva, UTU", photo: kati, position: "50% 60%" },
+    { name: "Leo Lahti, UTU", photo: leo },
   ];
 </script>
+
+<img
+  src="./img/UTU_logo_EN_RGB.png"
+  style="position: absolute; bottom: 6px; right: 20px; width: 100px"
+/>
 
 ---
 
