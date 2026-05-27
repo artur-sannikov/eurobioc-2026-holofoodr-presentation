@@ -436,6 +436,7 @@ layout: default
 </div>
 
 <script setup>
+  const base = import.meta.env.BASE_URL
   const people = [
     {
       name: "Tuomas Borman, UTU",
