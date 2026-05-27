@@ -56,12 +56,12 @@ duration: 10min
 
 <img src="./img/holofood_logo.png" style="position:absolute; top:6px; right:20px; width:100px;" />
 
-<v-clicks>
+<v-clicks every="2">
 
 - Horizon 2020 funded project
 - Aimed to study the modulation of animal gut microbiota via food additives
-- Two animals were studied: salmon (*Salmo salar*) and chickens
-  (*Gallus gallus*)
+- Two animals were studied: salmon (_Salmo salar_) and chickens
+  (_Gallus gallus_)
 - More than 2000 individual specimen
 - Biomolecular and physiological measurements are also available
 - Hologenome: a set of genomes of the host and microbiota
@@ -82,15 +82,21 @@ layout: two-cols
 # HoloFood Data Portal
 
 <v-clicks>
-
-- HoloFood Data Portal provides access to a lot of data
-- You can <mark class="bg-lightblue">download</mark> a lot of JSON data with Python...
-- ...which you'll need to <mark class="bg-lightblue">transform</mark> into tables...
-- ...and <mark class="bg-lightblue">relate</mark> those tables to each other
-- There should be an easier way to <mark class="bg-rose">download</mark> such valuable data...
-- ...and <mark class="bg-rose">transform</mark> into common Bioconductor formats
-
+<ul>
+  <li v-click="0">HoloFood Data Portal provides access to a lot of data</li>
+  <li v-click="2">You can <mark class="bg-lightblue">download</mark> a lot of JSON data with Python...</li>
+  <li v-click="2">...which you'll need to <mark class="bg-lightblue">transform</mark> into tables...</li>
+  <li v-click="3">There should be an easier way to <mark class="bg-rose">download</mark> such valuable data...</li>
+  <li v-click="3">There should be an easier way to <mark class="bg-rose">download</mark> such valuable data...</li>
+</ul>
 </v-clicks>
+
+<!-- - HoloFood Data Portal provides access to a lot of data -->
+<!-- - You can <mark class="bg-lightblue">download</mark> a lot of JSON data with Python... -->
+<!-- - ...which you'll need to <mark class="bg-lightblue">transform</mark> into tables... -->
+<!-- - ...and <mark class="bg-lightblue">relate</mark> those tables to each other -->
+<!-- - There should be an easier way to <mark class="bg-rose">download</mark> such valuable data... -->
+<!-- - ...and <mark class="bg-rose">transform</mark> into common Bioconductor formats -->
 
 ::right::
 
@@ -381,16 +387,26 @@ Pages 18–27, <a href="https://doi.org/10.1111/jam.12514">10.1111/jam.12514</a>
 />
 ---
 
+# Factor 2
+
+<div class="absolute bottom-79.3 left-16.5 w-30 h-0.3 bg-red-500"></div>
+<div class="absolute bottom-68.5 left-34 w-13.1 h-0.3 bg-red-500"></div>
+<div class="absolute bottom-65.5 left-39.5 w-7.7 h-0.3 bg-red-500"></div>
+
+<img src="./img/plot_factor2-1.png" style="width: 650px" />
+
+<img src="./img/UTU_logo_FI_RGB.png" style="position:absolute; bottom:6px; right:20px; width:100px;" />
+<!-- Cetobacterium, Vibrio, Aliivibrio are associated with EPA and DHA. -->
+---
+
+
 # Discussion and conclusions
 
 - Holo-omic analysis relies on curated data
 - We bridge the gap between data retrieval and downstream analysis by using
   standard data containers
 - HoloFoodR can facilitate teaching &rarr; learn-by-doing for advanced learners
-- The linkage via BioSamples identifiers providers a template for future
-  multi-omic datasets
 - Raw spectral metabolite data require external tools (e.g. notame)
-- Requires some knowledge of R programming language
 
 <!-- We use two containers: MAE and TreeSE -->
 <!-- We can use HoloFoodR to retrieve the data to teach advanced multi-omics -->
@@ -399,8 +415,6 @@ Pages 18–27, <a href="https://doi.org/10.1111/jam.12514">10.1111/jam.12514</a>
   src="./img/UTU_logo_EN_RGB.png"
   style="position: absolute; bottom: 6px; right: 20px; width: 100px"
 />
-
----
 
 ---
 layout: default
