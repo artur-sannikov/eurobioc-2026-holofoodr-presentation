@@ -389,7 +389,7 @@ Pages 18–27, <a href="https://doi.org/10.1111/jam.12514">10.1111/jam.12514</a>
 
 <div class="absolute bottom-79.3 left-16.5 w-30 h-0.3 bg-red-500"></div>
 <div class="absolute bottom-68.5 left-34 w-13.1 h-0.3 bg-red-500"></div>
-<div class="absolute bottom-65.5 left-39.5 w-7.7 h-0.3 bg-red-500"></div>
+<div class="absolute bottom-51.5 left-16 w-31 h-0.3 bg-red-500"></div>
 
 <img src="./img/plot_factor2-1.png" style="width: 650px" />
 
