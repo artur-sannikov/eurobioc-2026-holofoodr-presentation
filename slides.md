@@ -388,7 +388,7 @@ Pages 18–27, <a href="https://doi.org/10.1111/jam.12514">10.1111/jam.12514</a>
 
 <img src="./img/plot_factor2-1.png" style="width: 650px" />
 
-<img src="./img/UTU_logo_FI_RGB.png" style="position:absolute; bottom:6px; right:20px; width:100px;" />
+<img src="./img/UTU_logo_EN_RGB.png" style="position:absolute; bottom:6px; right:20px; width:100px;" />
 <!-- Cetobacterium, Vibrio, Aliivibrio are associated with EPA and DHA. -->
 ---
 
