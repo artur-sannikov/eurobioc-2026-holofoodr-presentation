@@ -304,7 +304,7 @@ mae <- addMGnify(tse, mae)
 - We did not find any effect of the treatment on the fatty acid concentrations
 - But we did find time effect
 
-<img src="./img/fatty_and_treatment_vis-1.png" style="width: 450px" />
+<img src="./img/fatty_and_treatment_vis-1.png" style="width: 420px" />
 
 <img
   src="./img/UTU_logo_EN_RGB.png"
@@ -529,9 +529,6 @@ layout: default
   style="position: absolute; bottom: 6px; right: 20px; width: 100px"
 />
 
----
-canvasWidth: 1920
-canvasHeight: 1080
 ---
 
 # Thank you and kiitos! Any questions?
