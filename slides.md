@@ -436,11 +436,11 @@ layout: default
 </div>
 
 <script setup>
-  const base = import.meta.env.BASE_URL
+  import tuomas from './img/tuomas.jpg'
   const people = [
     {
       name: "Tuomas Borman, UTU",
-      photo: "/img/tuomas.jpg",
+      photo: tuomas,
       position: "50% 40%",
     },
     { name: "Artur Sannikov, UTU", photo: "/img/artur.jpg" },
