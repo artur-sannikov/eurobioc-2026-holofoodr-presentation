@@ -199,14 +199,12 @@ These two formats are:
 ## Steps
 
 <v-clicks>
-
-1. <mark class="bg-red-500 text-white rounded">Fetch and integrate</mark> data from the HoloFood and MGnify databases.
-2. <mark class="bg-red-500 text-white rounded">Filter, clean, and transform</mark> data for analysis.
-3. <mark class="bg-red-500 text-white rounded">Explore and summarize</mark> the data.
-4. <mark class="bg-red-500 text-white rounded">Test associations</mark> between fatty acids, time, and treatment.
-5. <mark class="bg-red-500 text-white rounded">Test associations</mark> between microbiome composition, time, and treatment.
-6. <mark class="bg-red-500 text-white rounded">Characterize the joint variation</mark> between the parallel omics measurements.
-
+<div v-click="0"> 1. <mark class="bg-red-500 text-white rounded">Fetch and integrate</mark> data from the HoloFood and MGnify databases.</div>
+<div v-click="0"> 2. <mark class="bg-red-500 text-white rounded">Filter, clean, and transform</mark> data for analysis.</div>
+<div v-click="2"> 3. <mark class="bg-red-500 text-white rounded">Explore and summarize</mark> the data.</div>
+<div v-click="3"> 4. <mark class="bg-red-500 text-white rounded">Test associations</mark> between fatty acids, time, and treatment.</div>
+<div v-click="3"> 5. <mark class="bg-red-500 text-white rounded">Test associations</mark> between microbiome composition, time, and treatment.</div>
+<div v-click="4"> 6. <mark class="bg-red-500 text-white rounded">Characterize the joint variation</mark> between the parallel omics measurements.</div>
 </v-clicks>
 
 <img
