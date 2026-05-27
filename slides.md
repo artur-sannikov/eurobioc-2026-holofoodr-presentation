@@ -70,7 +70,10 @@ duration: 10min
 
 </v-clicks>
 
-<img src="./img/UTU_logo_EN_RGB.png" style="position:absolute; bottom:6px; right:20px; width:100px;" />
+<img
+  src="./img/UTU_logo_EN_RGB.png"
+  style="position: absolute; bottom: 6px; right: 20px; width: 100px"
+/>
 
 ---
 layout: two-cols
@@ -100,7 +103,10 @@ for analysing host-microbiota interactions in animal production. Database
 (Oxford). 2025;2025:baae112. doi:<a href="https://doi.org/10.1093/database/baae112">10.1093/database/baae112</a>
 </div>
 
-<img src="./img/UTU_logo_EN_RGB.png" style="position:absolute; bottom:6px; right:20px; width:100px;" />
+<img
+  src="./img/UTU_logo_EN_RGB.png"
+  style="position: absolute; bottom: 6px; right: 20px; width: 100px"
+/>
 ---
 
 # HoloFoodR
@@ -123,7 +129,10 @@ These two formats are:
 
 <!-- <arrow v-click="3" x1="300" y1="215" x2="360" y2="342" color="#953" width="2" arrowSize="1" /> -->
 
-<img src="./img/UTU_logo_EN_RGB.png" style="position:absolute; bottom:6px; right:20px; width:100px;" />
+<img
+  src="./img/UTU_logo_EN_RGB.png"
+  style="position: absolute; bottom: 6px; right: 20px; width: 100px"
+/>
 
 ---
 
@@ -131,7 +140,10 @@ These two formats are:
 
 <img src="./img/holofoodr_workflow.png" style="width: 1000px" />
 
-<img src="./img/UTU_logo_EN_RGB.png" style="position:absolute; bottom:6px; right:20px; width:100px;" />
+<img
+  src="./img/UTU_logo_EN_RGB.png"
+  style="position: absolute; bottom: 6px; right: 20px; width: 100px"
+/>
 
 ---
 
@@ -191,7 +203,10 @@ These two formats are:
 
 </v-clicks>
 
-<img src="./img/UTU_logo_EN_RGB.png" style="position:absolute; bottom:6px; right:20px; width:100px;" />
+<img
+  src="./img/UTU_logo_EN_RGB.png"
+  style="position: absolute; bottom: 6px; right: 20px; width: 100px"
+/>
 ---
 
 # About the data
@@ -205,7 +220,10 @@ These two formats are:
 
 </v-clicks>
 
-<img src="./img/UTU_logo_EN_RGB.png" style="position:absolute; bottom:6px; right:20px; width:100px;" />
+<img
+  src="./img/UTU_logo_EN_RGB.png"
+  style="position: absolute; bottom: 6px; right: 20px; width: 100px"
+/>
 ---
 
 # Fetch HoloFood data
@@ -236,7 +254,10 @@ mae <- HoloFoodR::getResult(
 )
 ```
 
-<img src="./img/UTU_logo_EN_RGB.png" style="position:absolute; bottom:12px; right:20px; width:100px;" />
+<img
+  src="./img/UTU_logo_EN_RGB.png"
+  style="position: absolute; bottom: 6px; right: 20px; width: 100px"
+/>
 ---
 
 # Fetch metagenomic data
@@ -266,7 +287,10 @@ tse <- MGnifyR::getResult(
 mae <- addMGnify(tse, mae)
 ```
 
-<img src="./img/UTU_logo_EN_RGB.png" style="position:absolute; bottom:6px; right:20px; width:100px;" />
+<img
+  src="./img/UTU_logo_EN_RGB.png"
+  style="position: absolute; bottom: 6px; right: 20px; width: 100px"
+/>
 ---
 
 # Now to the actual results
@@ -278,7 +302,10 @@ mae <- addMGnify(tse, mae)
 
 <img src="./img/fatty_and_treatment_vis-1.png" style="width: 450px" />
 
-<img src="./img/UTU_logo_EN_RGB.png" style="position:absolute; bottom:6px; right:20px; width:100px;" />
+<img
+  src="./img/UTU_logo_EN_RGB.png"
+  style="position: absolute; bottom: 6px; right: 20px; width: 100px"
+/>
 ---
 
 # Shannon alpha-diversity
@@ -287,7 +314,10 @@ mae <- addMGnify(tse, mae)
 
 <img src="./img/alpha3-1.png" style="width: 550px" />
 
-<img src="./img/UTU_logo_EN_RGB.png" style="position:absolute; bottom:6px; right:20px; width:100px;" />
+<img
+  src="./img/UTU_logo_EN_RGB.png"
+  style="position: absolute; bottom: 6px; right: 20px; width: 100px"
+/>
 ---
 
 # Beta-diversity
@@ -298,7 +328,10 @@ mae <- addMGnify(tse, mae)
 
 <img src="./img/pcoa_beta_diversity-1.png" style="width: 550px" />
 
-<img src="./img/UTU_logo_EN_RGB.png" style="position:absolute; bottom:5px; right:20px; width:100px;" />
+<img
+  src="./img/UTU_logo_EN_RGB.png"
+  style="position: absolute; bottom: 6px; right: 20px; width: 100px"
+/>
 ---
 
 # Multi-omics integration
@@ -320,7 +353,10 @@ mae <- addMGnify(tse, mae)
 
 </v-clicks>
 
-<img src="./img/UTU_logo_EN_RGB.png" style="position:absolute; bottom:6px; right:20px; width:100px;" />
+<img
+  src="./img/UTU_logo_EN_RGB.png"
+  style="position: absolute; bottom: 6px; right: 20px; width: 100px"
+/>
 
 ---
 
@@ -339,7 +375,10 @@ system, Journal of Applied Microbiology, Volume 117, Issue 1, 1 July 2014,
 Pages 18–27, <a href="https://doi.org/10.1111/jam.12514">10.1111/jam.12514</a>
 </div>
 
-<img src="./img/UTU_logo_EN_RGB.png" style="position:absolute; bottom:6px; right:20px; width:100px;" />
+<img
+  src="./img/UTU_logo_EN_RGB.png"
+  style="position: absolute; bottom: 6px; right: 20px; width: 100px"
+/>
 ---
 
 # Discussion and conclusions
@@ -356,7 +395,10 @@ Pages 18–27, <a href="https://doi.org/10.1111/jam.12514">10.1111/jam.12514</a>
 <!-- We use two containers: MAE and TreeSE -->
 <!-- We can use HoloFoodR to retrieve the data to teach advanced multi-omics -->
 
-<img src="./img/UTU_logo_EN_RGB.png" style="position:absolute; bottom:6px; right:20px; width:100px;" />
+<img
+  src="./img/UTU_logo_EN_RGB.png"
+  style="position: absolute; bottom: 6px; right: 20px; width: 100px"
+/>
 
 ---
 
@@ -416,7 +458,10 @@ layout: default
   supported by the Danish National Research Foundation [grant
   DNRF143].
 
-<img src="./img/UTU_logo_EN_RGB.png" style="position:absolute; bottom:6px; right:20px; width:100px;" />
+<img
+  src="./img/UTU_logo_EN_RGB.png"
+  style="position: absolute; bottom: 6px; right: 20px; width: 100px"
+/>
 ---
 
 
@@ -434,7 +479,10 @@ layout: default
   with Bioconductor. doi: [10.1101/2025.10.29.685036](https://doi.org/10.1101/2025.10.29.685036).
 - [HoloFood consortium publications](https://docs.holofooddata.org/publications.html)
 
-<img src="./img/UTU_logo_EN_RGB.png" style="position:absolute; bottom:6px; right:20px; width:100px;" />
+<img
+  src="./img/UTU_logo_EN_RGB.png"
+  style="position: absolute; bottom: 6px; right: 20px; width: 100px"
+/>
 
 ---
 canvasWidth: 1920
@@ -443,7 +491,10 @@ canvasHeight: 1080
 
 # Thank you and kiitos! Any questions?
 
-<img src="./img/UTU_logo_EN_RGB.png" style="position:absolute; bottom:6px; right:20px; width:100px;" />
+<img
+  src="./img/UTU_logo_EN_RGB.png"
+  style="position: absolute; bottom: 6px; right: 20px; width: 100px"
+/>
 
 <div class="flex h-full items-center justify-center">
   <img src="./img/site.svg" width="300" />
