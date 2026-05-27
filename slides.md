@@ -31,6 +31,11 @@ duration: 10min
 ###### 2026-06-04
 ######
 
+<img
+  src="./img/EuroBioC2026_sticker.png"
+  style="position: absolute; top: 26px; right: 20px; width: 100px"
+/>
+
 ---
 
 # Agenda
