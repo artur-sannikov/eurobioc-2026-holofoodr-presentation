@@ -366,28 +366,40 @@ layout: default
 
 # Authors
 
-<div class="grid grid-cols-4 gap-6 mt-6">
+<div class="grid grid-cols-4 gap-3 mt-3">
   <div
     v-for="person in people"
     :key="person.name"
     class="flex flex-col items-center text-center"
   >
-    <img :src="person.photo" class="w-26 h-26 object-cover rounded-lg" />
+    <img
+      :src="person.photo"
+      class="w-24 h-24 object-cover object-top rounded-lg"
+      :style="{ objectPosition: person.position ?? 'top' }"
+    />
     <p class="mt-2 font-semibold text-sm">{{ person.name }}</p>
   </div>
 </div>
 
 <script setup>
-const people = [
-  { name: 'Tuomas Borman, UTU',   photo: '/img/tuomas.jpg' },
-  { name: 'Artur Sannikov, UTU',   photo: '/img/artur.jpg' },
-  { name: 'Robert Finn, EMBL-EBI',   photo: '/img/robert.jpg' },
-  { name: 'Morten Tønsberg Limborg, UCPH',     photo: '/img/morten.png' },
-  { name: 'Sandy Rogers, EMBL-EBI',     photo: '/img/sandy.jpg' },
-  { name: 'Varsha Kale',  photo: '/img/varsha.jpg' },
-  { name: 'Tuomas Borman',     photo: '/img/tuomas.jpg' },
-  { name: 'Tuomas Borman',  photo: '/img/tuomas.jpg' },
-]
+  const people = [
+    {
+      name: "Tuomas Borman, UTU",
+      photo: "/img/tuomas.jpg",
+      position: "50% 40%",
+    },
+    { name: "Artur Sannikov, UTU", photo: "/img/artur.jpg" },
+    { name: "Robert Finn, EMBL-EBI", photo: "/img/robert.jpg" },
+    {
+      name: "Morten Tønsberg Limborg, UCPH",
+      photo: "/img/morten.png",
+      position: "50% 20%",
+    },
+    { name: "Sandy Rogers, EMBL-EBI", photo: "/img/sandy.jpg" },
+    { name: "Varsha Kale, EMBL-EBI, AAU", photo: "/img/varsha.jpg" },
+    { name: "Kati Hanhineva, UTU", photo: "/img/kati.jpg", position: "50% 60%" },
+    { name: "Leo Lahti, UTU", photo: "/img/leo.jpg" },
+  ];
 </script>
 
 ---
