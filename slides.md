@@ -15,7 +15,7 @@ fonts:
 # enable MDC Syntax: https://sli.dev/features/mdc
 mdc: true
 # duration of the presentation
-duration: 10min
+duration: 9min
 ---
 
 
@@ -91,13 +91,6 @@ layout: two-cols
 </ul>
 </v-clicks>
 
-<!-- - HoloFood Data Portal provides access to a lot of data -->
-<!-- - You can <mark class="bg-lightblue">download</mark> a lot of JSON data with Python... -->
-<!-- - ...which you'll need to <mark class="bg-lightblue">transform</mark> into tables... -->
-<!-- - ...and <mark class="bg-lightblue">relate</mark> those tables to each other -->
-<!-- - There should be an easier way to <mark class="bg-rose">download</mark> such valuable data... -->
-<!-- - ...and <mark class="bg-rose">transform</mark> into common Bioconductor formats -->
-
 ::right::
 
 <img src="./img/holofoodr_data_portal.png" style="width: 1000px" />
@@ -132,8 +125,6 @@ These two formats are:
 <img src="./img/tse.png" class="absolute left-1/1.9 bottom-28 -translate-x-1/5" style="width: 400px" />
 
 </v-click>
-
-<!-- <arrow v-click="3" x1="300" y1="215" x2="360" y2="342" color="#953" width="2" arrowSize="1" /> -->
 
 <img
   src="./img/UTU_logo_EN_RGB.png"
@@ -364,27 +355,6 @@ mae <- addMGnify(tse, mae)
 
 ---
 
-# Factor 1
-
-<img src="./img/plot_factor1-1.png" style="width: 400px" />
-
-Mycoplasma is dominant in salmon gut but we did not find any covariation with
-fatty acids.
-
-<div class="text-sm">
-K.Z. Zarkasi, G.C.J. Abell, R.S. Taylor, C. Neuman, E. Hatje, M.L. Tamplin, M.
-Katouli, J.P. Bowman, Pyrosequencing‐based characterization of gastrointestinal
-bacteria of Atlantic salmon (Salmo salar L.) within a commercial mariculture
-system, Journal of Applied Microbiology, Volume 117, Issue 1, 1 July 2014,
-Pages 18–27, <a href="https://doi.org/10.1111/jam.12514">10.1111/jam.12514</a>
-</div>
-
-<img
-  src="./img/UTU_logo_EN_RGB.png"
-  style="position: absolute; bottom: 6px; right: 20px; width: 100px"
-/>
----
-
 # Factor 2
 
 <div class="absolute bottom-79.3 left-16.5 w-30 h-0.3 bg-red-500"></div>
@@ -394,7 +364,6 @@ Pages 18–27, <a href="https://doi.org/10.1111/jam.12514">10.1111/jam.12514</a>
 <img src="./img/plot_factor2-1.png" style="width: 650px" />
 
 <img src="./img/UTU_logo_EN_RGB.png" style="position:absolute; bottom:6px; right:20px; width:100px;" />
-<!-- Cetobacterium, Vibrio, Aliivibrio are associated with EPA and DHA. -->
 ---
 
 
@@ -405,9 +374,6 @@ Pages 18–27, <a href="https://doi.org/10.1111/jam.12514">10.1111/jam.12514</a>
   standard data containers
 - HoloFoodR can facilitate teaching &rarr; learn-by-doing for advanced learners
 - Raw spectral metabolite data require external tools (e.g. notame)
-
-<!-- We use two containers: MAE and TreeSE -->
-<!-- We can use HoloFoodR to retrieve the data to teach advanced multi-omics -->
 
 <img
   src="./img/UTU_logo_EN_RGB.png"
