@@ -356,12 +356,13 @@ mae <- addMGnify(tse, mae)
 ---
 
 # Factor 2
+<div class="relative inline-block">
+  <img src="./img/plot_factor2-1.png" style="width: 650px" />
+  <div class="absolute bg-red-500" style="bottom: 50%; left: 1%;  width: 23%; height: 2px;"></div>
+  <div class="absolute bg-red-500" style="bottom: 71%; left: 14.5%; width: 9.5%; height: 2px;"></div>
+  <div class="absolute bg-red-500" style="bottom: 84.5%; left: 1.5%;  width: 22.5%; height: 2px;"></div>
+</div>
 
-<div class="absolute bottom-79.3 left-16.5 w-30 h-0.3 bg-red-500"></div>
-<div class="absolute bottom-68.5 left-34 w-13.1 h-0.3 bg-red-500"></div>
-<div class="absolute bottom-51.5 left-16 w-31 h-0.3 bg-red-500"></div>
-
-<img src="./img/plot_factor2-1.png" style="width: 650px" />
 
 <img src="./img/UTU_logo_EN_RGB.png" style="position:absolute; bottom:6px; right:20px; width:100px;" />
 ---
