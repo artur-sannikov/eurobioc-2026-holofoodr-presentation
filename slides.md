@@ -112,7 +112,7 @@ for analysing host-microbiota interactions in animal production. Database
 
 <img src="./img/holofoodr_logo.png" style="position:absolute; top:6px; right:20px; width:100px;" />
 
-## ...and <span v-mark.underline>transform</span> into common Bioconductor formats
+## ...and <span v-mark.underline="0">transform</span> into common Bioconductor formats
 
 <br>
 
