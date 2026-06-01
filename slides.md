@@ -87,7 +87,7 @@ layout: two-cols
   <li v-click="2">You can <mark class="bg-lightblue">download</mark> a lot of JSON data with Python...</li>
   <li v-click="2">...which you'll need to <mark class="bg-lightblue">transform</mark> into tables...</li>
   <li v-click="3">There should be an easier way to <mark class="bg-rose">download</mark> such valuable data...</li>
-  <li v-click="3">There should be an easier way to <mark class="bg-rose">download</mark> such valuable data...</li>
+  <li v-click="3">...and <mark class="bg-rose">transform</mark> it into common Bioconductor formats</li>
 </ul>
 </v-clicks>
 
