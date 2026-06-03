@@ -419,9 +419,9 @@ layout: default
 - HoloFood consortium for providing curated data and API
 - Food, gut & nutritional metabolomics research group at University of Turku
   (hanhinevalab.utu.fi) and Turku Data Science Group (datascience.utu.fi) for
-  their scientific and moral support!
+  their feedback, scientific and moral support!
 - Henri Avela (utu.fi/fi/ihmiset/henri-avela) and Mahsa Jafari (utu.fi/fi/ihmiset/mahsa-jafari)
-  for their feedback on these slides
+  for their detailed feedback on these slides
 
 ---
 
