@@ -18,7 +18,6 @@ mdc: true
 duration: 9min
 ---
 
-
 # HoloFoodR
 
 ## A statistical programming framework for holo-omics data integration workflow
@@ -28,7 +27,9 @@ duration: 9min
 ##### Tuomas Borman, Artur Sannikov, Robert D Finn, Morten Tønsberg Limborg, Alexander B Rogers, Varsha Kale, Kati Hanhineva, Leo Lahti
 
 ###### EuroBioC2026
+
 ###### 2026-06-04
+
 ######
 
 <img
@@ -106,6 +107,7 @@ for analysing host-microbiota interactions in animal production. Database
   src="./img/UTU_logo_EN_RGB.png"
   style="position: absolute; bottom: 6px; right: 20px; width: 100px"
 />
+
 ---
 
 # HoloFoodR
@@ -171,8 +173,6 @@ These two formats are:
 - Package released on [Bioconductor](https://bioconductor.org/packages/release//bioc/html/HoloFoodR.html)
 - Case study with a formal analysis
 
-
-
 <img
   src="./img/holofoodr_qrcode.png "
   style="position: absolute; top: 80px; right: 100px; width: 400px"
@@ -202,6 +202,7 @@ These two formats are:
   src="./img/UTU_logo_EN_RGB.png"
   style="position: absolute; bottom: 6px; right: 20px; width: 100px"
 />
+
 ---
 
 # About the data
@@ -219,6 +220,7 @@ These two formats are:
   src="./img/UTU_logo_EN_RGB.png"
   style="position: absolute; bottom: 6px; right: 20px; width: 100px"
 />
+
 ---
 
 # Now to the actual results
@@ -234,6 +236,7 @@ These two formats are:
   src="./img/UTU_logo_EN_RGB.png"
   style="position: absolute; bottom: 6px; right: 20px; width: 100px"
 />
+
 ---
 
 # Shannon alpha-diversity
@@ -246,6 +249,7 @@ These two formats are:
   src="./img/UTU_logo_EN_RGB.png"
   style="position: absolute; bottom: 6px; right: 20px; width: 100px"
 />
+
 ---
 
 # Beta-diversity
@@ -260,6 +264,7 @@ These two formats are:
   src="./img/UTU_logo_EN_RGB.png"
   style="position: absolute; bottom: 6px; right: 20px; width: 100px"
 />
+
 ---
 
 # Multi-omics integration
@@ -289,6 +294,7 @@ These two formats are:
 ---
 
 # Factor 2
+
 <div class="relative inline-block">
   <img src="./img/plot_factor2-1.png" style="width: 650px" />
   <div class="absolute bg-red-500" style="bottom: 50%; left: 1%;  width: 23%; height: 2px;"></div>
@@ -371,9 +377,8 @@ layout: default
 
 ---
 
-# Acknowledgements and funding
+# Funding
 
-- HoloFood consortium for providing curated data and API
 - This work was supported by the European Commission in the
   framework of the Horizon2020 Project FindingPheno [GA 952914]
   and HoloFood [GA 817729]. L.L. was supported by Research
@@ -406,6 +411,17 @@ layout: default
   src="./img/UTU_logo_EN_RGB.png"
   style="position: absolute; bottom: 6px; right: 20px; width: 100px"
 />
+
+---
+
+# Acknowledgements
+
+- HoloFood consortium for providing curated data and API
+- Food, gut & nutritional metabolomics research group at University of Turku
+  (hanhinevalab.utu.fi) and Turku Data Science Group (datascience.utu.fi) for
+  their scientific and moral support!
+- Henri Avela (utu.fi/fi/ihmiset/henri-avela) and Mahsa Jafari (utu.fi/fi/ihmiset/mahsa-jafari)
+  for their feedback on these slides
 
 ---
 
